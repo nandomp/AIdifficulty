@@ -13,31 +13,31 @@ The Explanatory Power of Predicting IRT Difficulty"*](),  [36th AAAI Conference 
 * **Explainable AI**: understanding what makes instances hard, or groups of instances (e.g., classes), and explaining whether an error is expected or unexpected.
 
 <div align="center">
-<img src="https://github.com/nandomp/AIParadigmsSafety/blob/master/Plots/mapping-artefacts-noSafety_all.png"
-      alt="" width="800" />
+<img src="https://github.com/nandomp/AIdifficulty/blob/main/Plots/Diff.Class.Test.png"
+      alt="" width="600" />
 </div>
 
 
 * **Robust evaluation**: comparing systems using their characteristic curves. Systems that are reliable on all (or most) easy instances should be considered more robust. 
 
 <div align="center">
-<img src="https://github.com/nandomp/AIParadigmsSafety/blob/master/Plots/mapping-artefacts-noSafety_all.png"
-      alt="" width="800" />
+<img src="https://github.com/nandomp/AIdifficulty/blob/main/Plots/CCCs.png"
+      alt="" width="600" />
 </div>
 
 
 * **AI progress**: analysing whether the increase of performance has focused on the low-hanging easy instances or more complex instances through specialisation. 
 
 <div align="center">
-<img src="https://github.com/nandomp/AIParadigmsSafety/blob/master/Plots/mapping-artefacts-noSafety_all.png"
-      alt="" width="800" />
+<img src="https://github.com/nandomp/AIdifficulty/blob/main/Plots/AIprogress.png"
+      alt="" width="600" />
 </div>
 
 * **Distribution changes and perturbations**:  a very capable system failing on a batch of very easy instances may suggest a distributional shift or an adversarial attack. The inverse phenomenon may signal a Clever Hans effect.
 
 <div align="center">
-<img src="https://github.com/nandomp/AIParadigmsSafety/blob/master/Plots/mapping-artefacts-noSafety_all.png"
-      alt="" width="800" />
+<img src="https://github.com/nandomp/AIdifficulty/blob/main/Plots/CleverHans.png"
+      alt="" width="600" />
 </div>
 
 The main contributions of this paper are: 
