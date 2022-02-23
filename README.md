@@ -12,7 +12,11 @@ The Explanatory Power of Predicting IRT Difficulty"*](),  [36th AAAI Conference 
 
 * **Explainable AI**: understanding what makes instances hard, or groups of instances (e.g., classes), and explaining whether an error is expected or unexpected.
 * **Robust evaluation**: comparing systems using their characteristic curves. Systems that are reliable on all (or most) easy instances should be considered more robust. 
-* **AI progress**: analysing whether the increase of performance has focused on the low-hanging easy instances or more complex instances through specialisation. %recognise the patterns that make instances hard  and address the difficulty gradient with better techniques.
+* **AI progress**: analysing whether the increase of performance has focused on the low-hanging easy instances or more complex instances through specialisation. 
 * **Distribution changes and perturbations**:  a very capable system failing on a batch of very easy instances may suggest a distributional shift or an adversarial attack. The inverse phenomenon may signal a Clever Hans effect.
 
-The main contributions of this paper are: (1) the first general methodology for training an estimator for IRT difficulties, (2) comprehensive empirical results showing the wide range of domains where it works, and (3) the evidence of its applicability as a powerful explanatory tool.
+The main contributions of this paper are: 
+
+1. the first general methodology for training an estimator for IRT difficulties, 
+2. comprehensive empirical results showing the wide range of domains where it works, and 
+3. the evidence of its applicability as a powerful explanatory tool.
